@@ -21,10 +21,10 @@ public class Ej1tema2 {
 		
 		num1 = sc.nextInt();
 		
-		//
+		//variable de resto de num1 entre 7
 		mod = num1%7;
 		
-		//
+		//variable de resta de 7 menos mod
 		resta = 7-mod;
 		
 		//ternario

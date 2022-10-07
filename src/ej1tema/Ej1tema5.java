@@ -37,6 +37,8 @@ public class Ej1tema5 {
 		//crear variable int donde puedas escribir el valor de x
 		x = sc.nextInt();
 		
+		/*variable cuyo valor es la ecuación del enunciado y que dará uno
+		de los valores esperados*/
 		y=a*(x*x)+b*x+c;
 		
 		//Le decimos al usuario que introduzca el valor de la y

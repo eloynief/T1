@@ -17,7 +17,8 @@ public class Ej1tema4 {
 		
 		//Le decimos al usuario que introduzca un número
 		System.out.print("Introduce un número: ");
-				
+		
+		
 		base = sc.nextInt();
 				
 		System.out.print("Introduce un número: ");

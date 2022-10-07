@@ -13,16 +13,21 @@ public class Ej1tema6 {
 		//Creación de scanner
 		Scanner sc = new Scanner(System.in);
 		
-		System.out.print("Introduce ");
+		//mensaje cuya función es decir que introduzcas un valor
+		System.out.print("Introduce los segundos: ");
+		
+		//comando para poder introducir la variable indicada
 		sec = sc.nextInt();
 		
+		//variables cuyos valores son ecuaciones que dan el resultado que buscamos
 		h = sec/3600;
 		hr = sec%3600;
 		min = hr/60;
 		sec2 = hr%60;
 		
-		
-		System.out.print("Introduce " + h + "h " + min + "m " + sec2 + "s ");
+		/*print del mensaje ordenando los números anteriores para que muestre en pantalla
+		el valor buscado*/
+		System.out.print(h + "h " + min + "m " + sec2 + "s ");
 		
 	}
 

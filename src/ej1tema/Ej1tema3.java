@@ -25,10 +25,10 @@ public class Ej1tema3 {
 		System.out.print("Introduce un número: ");
 		num2 = sc.nextInt();
 		
-		//
+		//crear variable del resto de num1 entre num2
 		mod = num1%num2;
 		
-		//
+		//crear variable de resta de num2 y mod
 		resta = num2-mod;
 		
 		//ternario
